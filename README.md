@@ -12,7 +12,7 @@ Python-rtmidi https://spotlightkid.github.io/python-rtmidi/installation.html
 
 -Usage-
 
-Run with the command:
+Run with the command (debian based distros):
 python3 midi-router.py
 
 The program presents you with three options upon startup. 
