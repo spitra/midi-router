@@ -5,10 +5,12 @@ I created this script as a workaround to plug my digital piano (USB midi out) in
 I am a programming novice, don't judge too harshly. 
 
 -Requirements-
+
 Mido https://mido.readthedocs.io/en/latest/ 
 Python-rtmidi https://spotlightkid.github.io/python-rtmidi/installation.html
 
 -Usage-
+
 Run with the command:
 python3 midi-router.py
 
