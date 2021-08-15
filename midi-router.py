@@ -11,13 +11,15 @@ from mido import Message
 #main function to handle UI and pass off to route
 def main():
 	print("Welcome to midi-router!\n")
-	selection = input("Press (1) to send a test note.\nPress (2) to route midi.\nPress (3) to exit.\n")
+	selection = input("Press (1) to send a test note.\nPress (2) to route midi.\nPress (3) to set all notes on all outputs to off\nPress (4) to exit.\n")
 
 	if(selection == "1"):
 		testNotes()
 	elif(selection == "2"):
 		route()
 	elif(selection == "3"):
+		panic()
+	elif(selection == "4"):
 		quit()		
 	else:
 		print("Please enter a valid number.")
@@ -92,6 +94,13 @@ def route():
 		
 		
 	
+def panic():
+	outputs = getOutputs()
+	for ports in outputs.values():
+		outport = mido.open_output(ports)
+		outport.reset()
+		print(ports)
+		outport.close()
 	
 			
 	
