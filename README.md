@@ -18,7 +18,8 @@ python3 midi-router.py
 The program presents you with three options upon startup. 
 1. Test notes
 2. Route midi
-3. Exit
+3. Set all notes on all outputs to off (useful for when notes hang)
+4. Exit
 
 Test notes allows you to send a note to a specified output on a specified midi channel. 
 This was implemented to allow the user to figure out which output corresponds to each device should 
@@ -26,6 +27,8 @@ the output names not make it obvious (as in my case).
 
 Route midi allows you to select a midi device to listen to as an input and send note information to an output. 
 The user has control over where the output is sent, and on what midi channel.
+
+Set all notes on all outputs to off will poll each output on all channels and set all notes to off. This is useful if a note hangs, and your synth never recieves the "note off" command. This command will stop it from continuously playing.
 
 Exit simply exits the program.
 
