@@ -2,7 +2,7 @@
 A short python script that allows a user to route midi input from one device to midi output on another.
 
 I created this script as a workaround to plug my digital piano (USB midi out) into my volca keys (analogue midi in). 
-I am a programming novice, don't judge too harshly. 
+
 
 -Requirements-
 
@@ -35,9 +35,6 @@ Exit simply exits the program.
 Thank you for reading! I hope you find this useful!
 Feel free to fork, modify, or do whatever with this code.
 
-Donations accepted, never expected.
-ALGO wallet
-7S2E7FAGF34YRZX7WCJUR52W6QWT6VB6UVBUXQF6AR5KBFFBCVLRWBJ7LI
 
 
 
