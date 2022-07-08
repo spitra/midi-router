@@ -15,7 +15,7 @@ Python-rtmidi https://spotlightkid.github.io/python-rtmidi/installation.html
 Run with the command (debian based distros):
 python3 midi-router.py
 
-The program presents you with three options upon startup. 
+The program presents you with four options upon startup. 
 1. Test notes
 2. Route midi
 3. Set all notes on all outputs to off (useful for when notes hang)
